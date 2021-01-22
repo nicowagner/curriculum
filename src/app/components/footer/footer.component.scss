@@ -1,0 +1,17 @@
+.footer {
+  width: 100%;
+  background: #404040;
+  padding: 50px;
+  margin-top: 50px;
+  .logo {
+    text-align: center;
+  }
+  .info {
+    p {
+      text-align: center;
+      color: #fff;
+      margin: 2px 0;
+      font-size: 13px;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.experiencia {
+  .imagen {
+    background: url("../../../assets/img/experiencia.png");
+    background-size: cover;
+    height: 450px;
+  }
+  .info {
+    margin-top: 30px;
+    ul {
+      li {
+        padding-bottom: 15px;
+      }
+    }
+    .anos {
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .experiencia {
+    .imagen {
+      background-size: 100%;
+      height: 200px;
+    }
+    .info {
+      ul {
+        padding: 0 20px;
+      }
+    }
+  }
+}

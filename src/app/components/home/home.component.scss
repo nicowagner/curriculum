@@ -1,0 +1,30 @@
+.sobremi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .imagen {
+    width: 50%;
+    margin-right: 2%;
+  }
+  .info {
+    width: 48%;
+  }
+}
+
+//Responsive
+@media screen and (max-width: 1000px) {
+  .sobremi {
+    display: flex;
+    flex-direction: column;
+    img {
+      max-width: 100%;
+    }
+    .imagen {
+      width: 100%;
+      margin-right: 0;
+    }
+    .info {
+      width: 100%;
+    }
+  }
+}

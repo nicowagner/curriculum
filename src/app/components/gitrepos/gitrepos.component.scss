@@ -1,0 +1,20 @@
+.repoList {
+  .list {
+    a {
+      color: #000;
+    }
+    a:hover {
+      color: #434343;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .repoList {
+    .list {
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+}
